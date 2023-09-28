@@ -14,37 +14,33 @@ Navigate to the cloned repo:
 
  
 Install the dependencies: 
-```yarn install``` 
-or
 ```npm install```
 
 
 ## Usage
 
 Start the preview server after building:
-```yarn start```
-or 
-```npm run start```
+```npm run dev```
 
 
 if no other project running, your project should be running on http://localhost:3000
 
 ## API Endpoints
 
-### GET /api/get-quiz
+### GET http:localhost:3000/api/get-quiz
 
 Fetches all questions. Returns a JSON array of questions.
 
-### POST /api/submit-quiz
+### POST http:localhost:3000/api/submit-quiz
 
 Accepts a JSON object with 'name' and 'score' fields.
 
-### POST /api/accept-mail
+### POST http:localhost:3000/api/accept-mail
 Accepts a JSON object with 'gmail'
 
 ## Testing
 
-You can test the API endpoints using [Postman](https://web.postman.co/) or similar API testing tools. If you're using Jest for testing, you can run the tests with:
+You can test the API endpoints using [Postman](https://web.postman.co/) or similar API testing tools. 
 
 
 

@@ -1,26 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-# Next.js TypeScript CBT API
+### Next.js TypeScript CBT API
 
 This project is a Next.js application written in TypeScript that provides an API for Computer-Based Testing (CBT). It includes endpoints for fetching and posting data.
 
-## Installation
+### Installation
 
 Clone the repository: using ``` git clone <repo 'URL'> ```
 
@@ -57,7 +39,7 @@ Fetches all questions. Returns a JSON array of questions.
 
 Accepts a JSON object with 'name' and 'score' fields.
 
-### POST /api/
+### POST /api/accept-mail
 Accepts a JSON object with 'gmail'
 
 ## Testing

@@ -16,21 +16,59 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Next.js TypeScript CBT API
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project is a Next.js application written in TypeScript that provides an API for Computer-Based Testing (CBT). It includes endpoints for fetching and posting data.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+Clone the repository: using ``` git clone <repo 'URL'> ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Navigate to the cloned repo: 
+ ```git checkout```
+ 
+ ```cd <project dir_name>```
 
-## Deploy on Vercel
+ 
+Install the dependencies: 
+```yarn install``` 
+or
+```npm install```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Usage
+
+Start the preview server after building:
+```yarn start```
+or 
+```npm run start```
+
+
+if no other project running, your project should be running on http://localhost:3000
+
+## API Endpoints
+
+### GET /api/get-quiz
+
+Fetches all questions. Returns a JSON array of questions.
+
+### POST /api/submit-quiz
+
+Accepts a JSON object with 'name' and 'score' fields.
+
+### POST /api/
+Accepts a JSON object with 'gmail'
+
+## Testing
+
+You can test the API endpoints using [Postman](https://web.postman.co/) or similar API testing tools. If you're using Jest for testing, you can run the tests with:
+
+
+
+
+
+
+
+
+
